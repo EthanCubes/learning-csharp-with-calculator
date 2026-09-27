@@ -70,14 +70,25 @@ class Program {
                 // end of calculation loop
             }
             // Then, calculate the program according to a lot of factors
-            /* */
-            Console.WriteLine("Outputing stuff you typed");
-            for (int i = 0; i < numbers.Count; i++) {
-                Console.WriteLine(numbers[i]);
-            }
+            int answer = numbers[0];
             for (int i = 0; i < operators.Count; i++) {
-                Console.WriteLine(operators[i]);
+                switch (operators[i]) {
+                    case "+":
+                        answer = answer + numbers[i+1];
+                        break;
+                    case "-":
+                        answer = answer - numbers[i+1];
+                        break;
+                    case "*":
+                        answer = answer * numbers[i+1];
+                        break;
+                    case "/":
+                        answer = answer / numbers[i+1];
+                        break;
+                }
             }
+            Console.Write("The answer is ");
+            Console.WriteLine(answer);
         }
     }
 }
