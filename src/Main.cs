@@ -1,6 +1,8 @@
 using System;
 using System.Collections.Generic;
 
+// C# is the 4th language I learned the past 4 months. I did get decently good at Python also, but I already had some knowledge before, even if I was stuck in tutorial hell
+
 class Program {
     static void Main() {
         while (true) {
