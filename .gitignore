@@ -1,1 +1,3 @@
-build/
+learning-csharp-with-calculator.csproj
+obj/
+bin/
