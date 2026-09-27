@@ -20,7 +20,9 @@ Simple C# calculator app. Made for Hack Club Out-To-C.
 - Run `dotnet run` to run the program
 
 ## How it works
-I picked C# as the language for this because I already somewhat know C and C++, and I wanted to make something for Out-To-C
+I picked C# as the language for this because I already somewhat know C and C++, and I wanted to make something for Out-To-C. I'm honestly just learning languages for the sake of learning new things, not because I actually like C# or think I might use it in the future. This is the 4th language I learned in the past 4 months, after JavaScript, C++, and C.
+
+GUI was made with Avalonia UI because it supports all platforms, while most alternatives don't support Linux or MacOS.
 
 ## Credits
 - [w3schools](https://www.w3schools.com/) was useful for references, since C# is pretty different form most programming languages I work with.
