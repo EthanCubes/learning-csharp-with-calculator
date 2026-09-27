@@ -11,20 +11,20 @@ class Program {
 
             bool calculating = true;
 
-            List<int> numbers = new List<int>();
+            List<decimal> numbers = new List<decimal>();
             List<string> operators = new List<string>();
 
             while (calculating) {
                 switch (mode) {
                     case "number":
-                        int number;
+                        decimal number;
                         input_valid = false;
                         while (!input_valid) {
                             Console.Write("Enter an integer");
                             user_input = Console.ReadLine();
                             input_valid = true;
                             try {
-                                number = int.Parse(user_input);
+                                number = decimal.Parse(user_input);
                                 numbers.Add(number);
                             }
                             catch {
@@ -70,7 +70,7 @@ class Program {
                 // end of calculation loop
             }
             // Then, calculate the program according to a lot of factors
-            int answer = numbers[0];
+            decimal answer = numbers[0];
             for (int i = 0; i < operators.Count; i++) {
                 switch (operators[i]) {
                     case "+":
