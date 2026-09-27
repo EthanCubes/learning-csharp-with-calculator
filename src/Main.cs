@@ -57,7 +57,9 @@ class Program {
                         mode = "number";
                         break;
                 }
+                // end of calculation loop
             }
+            // end of program loop
         }
     }
 }
